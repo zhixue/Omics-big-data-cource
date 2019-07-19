@@ -1,2 +1,2 @@
-# machine-learning-with-matlab
-the programming on coursera
+# Omics big data cource in sjtu
+Recording my progress in omics big data analysis.
