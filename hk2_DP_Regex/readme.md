@@ -8,12 +8,17 @@ x: -------......
 y: ...----------  
 ......1--j-----N  
 ```
+
 so that the optimal alignment of the two reads involves x_i..M and Y_1..j. This problem is a hybrid of local and global alignment. We want the overhangs to be free, as in local alignment (the gap penalties for x_1..x_i-1 and y_j+1..y_N are 0). Within the aligned section, though, we use normal gap penalties.
 
 Using a scoring system of +1 for a match, -3 for a mismatch and a linear gap penalty of -10 per gap symbol, you are asked to give  
 1). the dynamic programming algorithm that finds an optimal alignment of this type;   
-2). your analysis about the time and space complexity of your algorithm.
------
+2). your analysis about the time and space complexity of your algorithm.  
+
+
+
+----------------
+
 2. 
 Paring Smith/Waterman output (Perl).
 You are the new person in a bioinformatics group that’s just decided that everything in their informatics pipeline will be converted from WU-BLAST searches to Smith/Waterman searches. Fortunately you notice that the program ssearch, part of Bill Pearson’s FASTA package, a robust implementation of the Smith/Waterman local alignment algorithm, is installed on our course server for you to use. (Do a man ssearch to see the man page.)
