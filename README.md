@@ -1,4 +1,6 @@
-# Omics big data cource in sjtu
+# Omics big data cource in SJTU
+The Omics big data cource is taught by teacher Wei and Li.
+
 Recording my progress in omics big data analysis.
 
 Homework | Mentioned topic 
