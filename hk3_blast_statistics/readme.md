@@ -104,6 +104,7 @@ A= C= G= T=
 (2) Which model sequence length yielded values for E(%A) closest to the theoretical target frequency qA? Why?  
 (3) Which pair of model sequence lengths yielded results for H and K that are most similar? Why?   
 (4) For both the uniform and nonuniform distributions and a single model sequence of length 10^4, what is the expected frequency of occurrence of a MSS having a score twice the expected high score?
+
 ------
 
 Homework 3 
